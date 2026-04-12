@@ -9,7 +9,7 @@
 <body>
 
 <header id="top">
-  <h1>Contact</h1>
+  <h1>Contact Me</h1>
 
   <nav role="navigation" aria-label="Main Navigation">
     <a href="index.html">Home</a> |
@@ -22,32 +22,22 @@
 <main>
 
 <section class="card">
-  <h2>Contact Form</h2>
+  <h2>Feel free to send messages</h2>
 
-  <!-- Static form (GitHub Pages has no backend). This still meets the form requirement. -->
-  <form action="#" method="get">
-    <p>
-      <label>Name:</label>
-      <input type="text" name="name">
-    </p>
+  <form action="thankyou.html" method="get">
+    <ul>
+      <form action="thankyou.html" method="GET">
+        <li><lable>Name: <input type="text" name="name"></lable></li>
+        <li><lable>Email: <input type="email" name="email"></lable></li>
+        <li><lable>Message: <textarea name="message" rows="5" cols="30"></textarea></lable></li>
+        <button type="submit">Send</button>
+      </form>
+    </ul>
+  
 
-    <p>
-      <label>Email:</label>
-      <input type="email" name="email">
-    </p>
-
-    <p>
-      <label>Message:</label>
-      <textarea name="message" rows="5" cols="30"></textarea>
-    </p>
-
-    <!-- type=button so it doesn't submit and cause 405 -->
-    <p><button type="button">Send</button></p>
-  </form>
-
-  <p>
-    Email me: <a href="mailto:Nada.homod2004@gmail.com">Nada.homod2004@gmail.com</a>
-  </p>
+  <p>Or email me directly:
+<a href="mailto:Nada.homod2004@gmail.com">Nada.homod2004@gmail.com</a>
+</p>
 </section>
 
 <p><a href="#top">Back to Top</a></p>
@@ -55,7 +45,7 @@
 </main>
 
 <footer>
-  <p>CSC457 - HW3</p>
+  <p>CSC457 --- HW3</p>
 </footer>
 
 </body>
