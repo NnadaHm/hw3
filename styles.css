@@ -73,6 +73,12 @@ nav a:hover{background-color: #c7d2fe;}
   padding: 0.2rem 0.3rem;
 }
 
+.small-img{
+  
+  width: 50%;
+  max-width: 15rem;
+  
+}
 
 
 
